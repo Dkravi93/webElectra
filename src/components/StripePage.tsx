@@ -45,48 +45,43 @@ export default function StripePage({amount}: {amount: number}) {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         setFormLoading(true);
-
+    
         if (!stripe || !elements) {
-            return <Skeleton />
-        }
-
-        const { error: submitError } = await elements.submit();
-        if (submitError) {
-            setErrorMessage(submitError.message);
+            setErrorMessage("Stripe has not loaded yet.");
             setFormLoading(false);
             return;
         }
-
-        if(!elements) {
-            alert("NONE")
-            return; 
-        }
-        const res = await axios.post("/api/order", order);
-        if (res.status === 200) {
-            dispatch(setCart([]));
-        } else {
-            alert("Error creating order");
-            setErrorMessage("Error processing payment");
-        }
-
-        const { error } = await stripe.confirmPayment({
+    
+        const paymentResult = await stripe.confirmPayment({
             clientSecret,
             elements,
             confirmParams: {
-                return_url: `${window.location.origin}/success` // redirect to order page after payment
+                return_url: `${window.location.origin}/success`, // redirect to the success page
             },
         });
-
-        if (error) {
-            alert("Failed Stripe payment");
-            setErrorMessage(error.message);
+    
+        if (paymentResult.error) {
+            setErrorMessage(paymentResult.error.message);
             setFormLoading(false);
             return;
         }
-
-        
-        setFormLoading(false);
-    }
+    
+        // Process order after successful payment confirmation
+        try {
+            const res = await axios.post("/api/order", order);
+            if (res.status === 200) {
+                dispatch(setCart([])); // Clear the cart after successful payment
+                router.push("/success"); // Navigate to the success page
+            } else {
+                setErrorMessage("Error creating order");
+            }
+        } catch (error) {
+            setErrorMessage("Error processing payment.");
+        } finally {
+            setFormLoading(false);
+        }
+    };
+    
 
     if (loading) {
         return <Skeleton />
@@ -118,7 +113,7 @@ const Skeleton = () => {
             <Button className="px-20 mt-5 text-white font-semibold bg-gradient-to-b from-teal-600 via-cyan-600 to-cyan-800 hover:scale-105 hover:from-teal-700 hover:to-cyan-900"
               disabled
             >
-                Pay
+                Processing Payment...
             </Button>
         </div>
     )
