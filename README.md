@@ -6,7 +6,7 @@ WebElectra is a modern and secure e-commerce platform designed to provide a seam
 
 ## 🚀 Live Demo
 
-Check out the live site: [WebElectra]()
+Check out the live site: [WebElectra](https://web-electra.vercel.app/)
 
 ---
 
