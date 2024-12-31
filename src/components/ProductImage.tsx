@@ -18,7 +18,7 @@ export function ProductImage({ images }: ProductImageProps) {
           src={mainImage}
           alt="Main product image"
           layout="fill"
-          objectFit="contain"
+          style={{ objectFit: 'contain' }}
           className="w-full h-full object-center"
         />
       </div>
@@ -37,7 +37,7 @@ export function ProductImage({ images }: ProductImageProps) {
               alt={`Product image ${index + 1}`}
               width={80}
               height={80}
-              objectFit="cover"
+              style={{ objectFit: 'cover' }}
             />
           </button>
         ))}

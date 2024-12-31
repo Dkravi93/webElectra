@@ -36,7 +36,7 @@ export function ProductCard({ product, index }: ProductCardProps) {
             <Image
               src={product.images[0]}
               alt={product.name}
-              objectFit="cover"
+              style={{ objectFit: 'cover' }}
               height={250}
               width={200}
               className="transition-transform duration-300 hover:scale-105"

@@ -51,12 +51,13 @@ export function Hero() {
   return (
     <section
       className="h-[80%] sm:h-fit  relative lg:py-48 py-32 lg:overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${img.src})` }}
-    >
+      style={{
+        backgroundImage: `url('https://res.cloudinary.com/ds7z5pw52/image/upload/fl_preserve_transparency/v1735663994/hero5_yvozip.jpg?_s=public-apps')`,
+      }}>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="mt-10 sm:mt-0 container mx-auto px-4 relative z-10 text-white text-center">
         
-          <WordFadeIn className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" words="Welcome to DeviceHaven" />
+          <WordFadeIn className="text-4xl md:text-6xl font-bold mb-6 animate-fade-up" words="Welcome to WebElectra" />
         
         <p className="text-3xl mb-8 h-16 font-bold animate-type">
           {displayedMotto}

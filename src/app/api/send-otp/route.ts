@@ -39,10 +39,7 @@ export async function POST(request: Request) {
         });
     
     const transporter = nodemailer.createTransport({
-      service: "zoho",
-      host: "smtpro.zoho.in",
-      port: 465,
-      secure: true,
+      service: "gmail",
       auth: {
         user,
         pass,

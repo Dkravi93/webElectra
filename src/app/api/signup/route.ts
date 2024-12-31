@@ -14,12 +14,12 @@ const signUpSchema = z.object({
     password: z.string().min(8, 'Password must be at least 8 characters'),
   })
 
-export async function POST(req: NextRequest) {
-
+  export async function POST(req: NextRequest) {
     const { firstName, lastName, email, password } = await req.json();
-    console.log("Request Received for sign up:", firstName + " " + lastName + " " + email + " " + password);
-    const { success } = signUpSchema.safeParse({ firstName, lastName, email, password });
+    console.log("Request Received for sign up:", firstName, lastName, email);
 
+    // Validate input schema
+    const { success } = signUpSchema.safeParse({ firstName, lastName, email, password });
     if (!success) {
         return new NextResponse("Invalid input", { status: 400 });
     }
@@ -29,30 +29,37 @@ export async function POST(req: NextRequest) {
     try {
         await mongooseConnect();
 
+        // Check if the email already exists
         const existingUser = await User.findOne({ email });
         if (existingUser) {
-            return new NextResponse("Email already exists. Please use a different email.", { status: 400 }); // HTTP 409 Conflict
+            return new NextResponse("Email already exists. Please use a different email.", { status: 400 });
         }
 
-        const response = await User.create({
+        // Prepare the user object (but don't save it yet)
+        const newUser = new User({
             firstName,
             lastName,
             email,
             password: hashedPassword,
-        })
+        });
 
         const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || ""; // Adjust for your environment
         console.log("Base URL:", baseUrl);
-        await axios.post(`${baseUrl}/api/send-otp`, { email });
 
-        return new NextResponse("Signed up successfully", { status: 200 });
-    }
-    catch (error) {
-        console.error(error); // @ts-ignore
-        if (error.code === 11000) {
-            console.error("Duplicate key error:", error);
-            return new NextResponse("Email already exists. Please use a different email.", { status: 409 }); // HTTP 409 Conflict
+        // Send OTP to the user's email
+        try {
+            await axios.post(`${baseUrl}/api/send-otp`, { email });
+
+            // Save user to the database only if the OTP was sent successfully
+            await newUser.save();
+
+            return new NextResponse("Signed up successfully. OTP sent to email.", { status: 200 });
+        } catch (otpError) {
+            console.error("Failed to send OTP:", otpError);
+            return new NextResponse("Failed to send OTP. Please try again later.", { status: 500 });
         }
+    } catch (error) {
+        console.error(error);
         return new NextResponse("Failed to sign up", { status: 500 });
     }
 }

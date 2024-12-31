@@ -75,7 +75,6 @@ const cartSlice = createSlice({
     },
     setCart: (state, action: PayloadAction<CartItem[]>) => {
       state.items = action.payload; // Set cart state directly
-      console.log('Cart set:', state.items);
     },
     clearCart: (state) => {
       state.items = []; // Clear the cart array in the state

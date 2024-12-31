@@ -8,7 +8,7 @@ export function BackgroundGradientCards({ id, title, description, url } : { id:s
   const router = useRouter();
 
   return (
-    <div className="h-full">
+    <>
       <BackgroundGradient className="h-full rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <div className="h-full flex flex-col justify-between" >
           <div>
@@ -38,7 +38,7 @@ export function BackgroundGradientCards({ id, title, description, url } : { id:s
           </div>
         </div>
       </BackgroundGradient>
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { StarRating } from './starRating'
@@ -184,8 +184,7 @@ export function ProductCard({ id, name, price, salePrice, images, rating, setSho
   )
 }
 
-// skeleton
-export function ProductCardSkeleton() {
+export const ProductCardSkeleton = React.memo(function ProductCardSkeleton() {
   return (
     <div className="bg-card text-card-foreground rounded-lg shadow-lg border-t-2 dark:border-t-0 border-gray-100 overflow-hidden flex flex-col">
       <div className="relative aspect-square flex items-center justify-center h-[200px] bg-gray-200 animate-pulse">
@@ -203,5 +202,5 @@ export function ProductCardSkeleton() {
         <div className="h-10 w-1/2 bg-gray-300 animate-pulse"></div>
       </div>
     </div>
-  )
-}
+  );
+});

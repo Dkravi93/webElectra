@@ -128,7 +128,7 @@ export function TopProductCard({ _id, name, price, salePrice, images, rating }: 
           <Image
             src={images[currentImageIndex]}
             alt={name}
-            objectFit="cover"
+            style={{ objectFit: 'cover' }}
             className="transition-transform duration-300 hover:scale-110"
             height={220}
             width={220}

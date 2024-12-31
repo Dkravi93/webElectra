@@ -1,0 +1,782 @@
+[
+        {
+            "name": "Apple iPhone 16 Plus",
+            "price": 799,
+            "description": "Discover the latest in Apple's innovation with the iPhone 16 Plus, featuring a stunning 6.9-inch Super Retina XDR display for vibrant visuals and smoother scrolling. Powered by the advanced A18 Bionic chip, it delivers top-tier performance and efficiency. Capture life's moments in detail with the upgraded dual-lens camera system, and enjoy all-day battery life to keep you connected. With enhanced durability, 5G connectivity, and a sleek design, the iPhone 16 Plus combines style and power in one premium package.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909843/mdulcsyftq8giqlpe716.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909856/oldow0gwaw2fhmeoeu3g.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909917/fxcbcav5kktkgktddbpe.png"
+            ],
+            "stock": 55,
+            "category": "674368bf3c6ef21430284035",
+            "isOnSale": false,
+            "reviews": [],
+            "rating": 4
+        },
+        {
+            "name": "Samsung Galaxy S24 Plus",
+            "price": 999,
+            "description": "Experience the future of mobile technology with the Samsung Galaxy S24 Plus. This powerful smartphone boasts a stunning 6.7-inch Dynamic AMOLED 2X display with a smooth 120Hz refresh rate, delivering breathtaking visuals and seamless interaction. Powered by the latest Snapdragon processor, it offers lightning-fast performance for gaming, multitasking, and productivity. Capture every detail with the upgraded triple-lens camera system, featuring enhanced low-light capabilities and 8K video recording. With a robust 4,700mAh battery and 45W fast charging, you’ll stay connected all day. Enjoy cutting-edge features and unparalleled design with the Galaxy S24 Plus—your ultimate mobile companion.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909725/m8uatwjx39atmugkenfc.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909740/hrgcrvkx6pyet021pa6u.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732909789/m1iqetkb1snl6743zy88.png"
+            ],
+            "stock": 24,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "reviews": [],
+            "rating": 4.2
+        },
+        {
+            "name": "Samsung Galaxy S24 Ultra",
+            "price": 1199,
+            "description": "The Samsung Galaxy S24 Ultra is a high-performance flagship featuring a 6.8-inch QHD+ Dynamic AMOLED 2X display with a 120Hz adaptive refresh rate for smooth, vibrant visuals. Powered by the latest Snapdragon 8 Gen 3 processor (or Exynos variant), it offers up to 16GB RAM and 1TB storage for seamless multitasking and gaming. Its advanced quad-camera system includes a 200MP main sensor and up to 10x optical zoom, capturing pro-grade photos in any light. With a 5000mAh battery, IP68 rating, S Pen support, and One UI 6 on Android 14, the S24 Ultra blends premium design with top-tier performance.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732910071/kctbcmhc0pubv6lcqkoo.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732910087/mbdd3lqvlacemcpibadf.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1732910100/jfzfrzuqhp9iqmlk2tiu.png"
+            ],
+            "stock": 50,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "rating": 2,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple Macbook Air - 13",
+            "price": 949,
+            "description": "The Apple MacBook Air 13-inch is a sleek and powerful ultrabook featuring Apple's M1 or M2 chip, providing exceptional performance with energy efficiency. Its Retina display with True Tone delivers vibrant visuals, while the fanless design ensures quiet operation. The MacBook Air offers up to 18 hours of battery life, making it ideal for all-day use. With up to 16GB of RAM, 2TB of SSD storage, and macOS, it’s perfect for multitasking, creative work, and everyday tasks, all in a lightweight, portable design.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592201/b2kms1i4giadjlll7dbi.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592213/alqpuipl1krkloh9oijn.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592244/j8sx6v0ifol8crrxpu7k.png"
+            ],
+            "stock": 30,
+            "category": "674363a73c6ef21430284003",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple Macbook Air 15\" M2",
+            "price": 1349,
+            "description": "\nThe Apple MacBook Air 15-inch with M2 chip combines power and portability with a larger Liquid Retina display for stunning visuals. Powered by Apple’s M2 chip, it offers fast performance, seamless multitasking, and exceptional energy efficiency. With up to 18 hours of battery life, a fanless design for silent operation, and up to 24GB RAM and 2TB SSD storage, it’s ideal for productivity and creative workflows. Its sleek, ultra-thin aluminum body makes it an elegant choice for users needing a larger screen in a highly portable form factor.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592526/cp5eymi5fh5unr50okhk.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592543/ladqsvnyybjgr0yrkkq4.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734592574/gbwyvavbcbb7tpadsjsk.png"
+            ],
+            "stock": 28,
+            "category": "674363a73c6ef21430284003",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "HP Notebook 15 - 250 G10 i3",
+            "price": 599,
+            "description": "The HP Notebook 15 - 250 G10 with Intel Core i3 is a reliable, budget-friendly laptop ideal for everyday tasks. Featuring a 15.6-inch HD display, it delivers clear visuals for work, study, or streaming. Equipped with an Intel Core i3 processor, 8GB RAM, and up to 1TB HDD or SSD options, it offers solid performance for multitasking and essential applications. Designed for productivity and comfort, it includes a full-sized keyboard and multiple connectivity options, making it a versatile choice for students and professionals seeking an affordable, functional laptop.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734591745/rcskct2xiqsh9t7heopl.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734591756/s9p0uocuaznsssksamz1.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734591811/mbqm4734vk4nkazwcrz8.png"
+            ],
+            "stock": 22,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": true,
+            "salePrice": 549,
+            "reviews": []
+        },
+        {
+            "name": "HP Notebook 15 - 250 G10 i5",
+            "price": 2000,
+            "description": "The HP Notebook 15 - 250 G10 i5 is a powerful and reliable laptop designed to elevate your productivity and meet the demands of modern professionals and students. Powered by the latest Intel Core i5 processor, this notebook ensures seamless multitasking, allowing you to handle everything from daily tasks to complex projects with ease. Its 15.6-inch Full HD display delivers stunning visuals, making it ideal for work, study, and entertainment.\n\nWith a sleek and lightweight design, the HP 250 G10 is built for portability without compromising durability. Whether you're working on the go or enjoying a movie at home, this laptop is designed to adapt to your lifestyle. Combining powerful performance with HP’s renowned reliability, the HP Notebook 15 - 250 G10 i5 is the perfect choice for those seeking a versatile and efficient device.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734593137/o6nmpnyczoxj8vlgmcpd.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734593137/dvxz7ipvx8az9nojtt36.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734593182/cjjv246uihpqomtocwvz.png"
+            ],
+            "stock": 85,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": true,
+            "salePrice": 1749,
+            "reviews": [],
+            "rating": 3
+        },
+        {
+            "rating": 4.5,
+            "name": "HP ProBook 460 G11",
+            "price": 2439,
+            "description": "The HP ProBook 460 G11 is a premium business laptop crafted to deliver exceptional performance, reliability, and style for professionals on the move. Equipped with the latest Intel Core processor, this laptop ensures smooth multitasking and lightning-fast responsiveness, enabling you to handle demanding workloads effortlessly. Its 15.6-inch Full HD display provides sharp visuals and vibrant colors, perfect for presentations, video calls, and everyday tasks.\n\nDesigned with durability and portability in mind, the ProBook 460 G11 features a sleek, lightweight chassis with military-grade toughness to withstand the rigors of a busy work environment. Advanced security features, including a fingerprint sensor and TPM 2.0, safeguard your data, while long battery life ensures productivity throughout your day. With its blend of power, security, and elegant design, the HP ProBook 460 G11 is the ideal companion for business professionals who demand reliability and performance.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734593518/f1ckd2aupovp0pfljrfu.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734593526/vbq75tnpwxiyqb6xf47a.png"
+            ],
+            "stock": 100,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "name": "Dell Vostro 15 - 3530 i5",
+            "price": 699,
+            "description": "The Dell Vostro 15 - 3530 i5 is a versatile and dependable laptop designed to meet the needs of modern professionals and small business users. Powered by the Intel Core i5 processor, this laptop ensures fast and efficient performance, allowing you to handle multitasking, productivity applications, and everyday tasks seamlessly. The 15.6-inch Full HD anti-glare display delivers crisp visuals and reduces eye strain, making it perfect for extended work sessions and presentations.\n\nBuilt with a professional, compact design, the Dell Vostro 3530 is both stylish and portable, ideal for work on the go. It features advanced security options such as a fingerprint reader with Windows Hello for secure logins and Dell’s TPM 2.0 technology to protect your sensitive data. With extended battery life, a full-size keyboard, and a range of connectivity options, including USB-C, the Dell Vostro 15 - 3530 i5 is a reliable, budget-friendly laptop that balances performance and functionality for business and personal use.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734611704/hutc5wpk9atjjcnpspsd.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734611716/fdgl0eorzn1lzad04dey.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734611716/a5wbozo3vieiao1lhnvy.png"
+            ],
+            "stock": 77,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": true,
+            "salePrice": 559,
+            "reviews": [],
+            "rating": 4.333333333333333
+        },
+        {
+            "rating": 4.5,
+            "name": "Dell Latitude - 3530",
+            "price": 610,
+            "description": "The Dell Latitude 3530 is a robust and versatile laptop crafted to meet the demands of professionals and students alike. Powered by advanced Intel processors, this laptop ensures smooth and efficient performance for multitasking, productivity software, and everyday computing needs. The 15.6-inch Full HD anti-glare display offers sharp visuals and reduced eye strain, making it ideal for long hours of work or study.\n\nDesigned for durability and portability, the Latitude 3530 boasts a sleek, lightweight chassis that’s easy to carry wherever your day takes you. With enhanced security features, such as optional fingerprint authentication and TPM 2.0, it ensures your data remains secure. Its long-lasting battery, ergonomic keyboard, and comprehensive connectivity options, including USB-C and HDMI, make it a reliable companion for on-the-go professionals and learners. The Dell Latitude 3530 combines performance, practicality, and affordability, making it an excellent choice for those who value reliability and efficiency.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613262/zxpqfokgrfghghwm7nh0.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613272/mfmyl4xd4gldnanl49kq.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613273/auw0kojcxs7dx60lgchp.png"
+            ],
+            "stock": 88,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Xiaomi Redmi 14T Pro ",
+            "price": 800,
+            "description": "The Xiaomi Redmi 14T Pro is a cutting-edge smartphone designed to deliver powerful performance, stunning visuals, and advanced features, all at an unbeatable value. Equipped with a high-performance processor and ample RAM, this device ensures seamless multitasking, fast app launches, and smooth gaming experiences. Its 6.6-inch AMOLED display with a high refresh rate provides vibrant colors and fluid visuals, making it perfect for streaming, gaming, and browsing.\n\nCapture every moment in breathtaking detail with the triple-camera system, featuring a high-resolution primary sensor, an ultra-wide lens, and a macro lens for close-up shots. The front-facing camera is ideal for selfies and video calls, ensuring crisp and clear images every time.\n\nWith a long-lasting 5,000mAh battery and fast-charging support, the Redmi 14T Pro keeps you connected all day without interruptions. Packed with features like 5G connectivity, dual stereo speakers, and an in-display fingerprint scanner, this smartphone redefines convenience and performance. Stylish, powerful, and feature-packed, the Xiaomi Redmi 14T Pro is an excellent choice for those seeking premium features at an affordable price.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613630/w5wjsqpbh8001khdxlsy.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613638/sannmstjw96ejnpalpjk.png"
+            ],
+            "stock": 100,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": true,
+            "salePrice": 748,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Xiaomi Redmi 13C",
+            "price": 130,
+            "description": "The Xiaomi Redmi 13C (128GB) is a sleek and reliable smartphone that offers impressive performance and ample storage at a budget-friendly price. Featuring a 128GB internal storage capacity, this device provides plenty of room for all your apps, photos, videos, and documents, eliminating the need to worry about running out of space.\n\nPowered by an efficient octa-core processor and paired with sufficient RAM, the Redmi 13C ensures smooth multitasking and lag-free app performance. Its 6.5-inch HD+ display delivers vibrant visuals and crisp details, making it ideal for streaming videos, browsing the web, or scrolling through social media.\n\nCapture your favorite moments with the dual-camera system, which includes a high-resolution main camera and a depth sensor for portrait shots. The front-facing camera ensures clear and bright selfies for sharing or video calls.\n\nThe 5,000mAh battery provides all-day power, while fast-charging support ensures you’re never left waiting. Packed with features like a rear-mounted fingerprint sensor, AI face unlock, and dual SIM support, the Xiaomi Redmi 13C (128GB) combines style, functionality, and value, making it an excellent choice for everyday use.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613872/g7wcmk2gtgftr22mcbjz.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734613882/kjqrdb51tbc5qmvidyhj.png"
+            ],
+            "stock": 66,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": true,
+            "salePrice": 110,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Google Pixel 9 Pro XL",
+            "price": 1260,
+            "description": "The Google Pixel 9 Pro XL (512GB) is the ultimate powerhouse for smartphone enthusiasts, combining cutting-edge technology with Google's renowned software expertise. With an impressive 512GB of internal storage, this flagship device offers an abundance of space for your photos, videos, apps, and files, ensuring you never run out of room for your creativity or productivity.\n\nThe Pixel 9 Pro XL features a stunning 6.8-inch QHD+ AMOLED display with a buttery-smooth 120Hz refresh rate, delivering vibrant colors, deep contrasts, and an immersive viewing experience, whether you're gaming, streaming, or browsing. Powered by the Google Tensor G3 chip, the device ensures lightning-fast performance, seamless multitasking, and advanced AI capabilities.\n\nPhotography takes center stage with the Pixel 9 Pro XL's exceptional triple-camera system, featuring a 50MP main sensor, an ultra-wide lens, and a telephoto lens for up to 5x optical zoom. Google's computational photography brings professional-grade features like Night Sight, Magic Eraser, and Cinematic Blur, making every shot breathtaking. The 32MP front-facing camera ensures sharp and vibrant selfies and crystal-clear video calls.\n\nPacked with a 5,200mAh battery and fast wired and wireless charging, this device is built to keep up with your busiest days. With 5G connectivity, an in-display fingerprint sensor, and Google's clean Android 14 experience, the Pixel 9 Pro XL combines innovation, security, and usability. The IP68 water and dust resistance and premium build quality make it durable and stylish, perfect for those who demand the best in a smartphone.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734614151/nvsev8oihn3361qagmue.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734614160/llvmxhjffoyjqkb4zyio.png"
+            ],
+            "stock": 87,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "name": "Nokia C31 - (128GB)",
+            "price": 100,
+            "description": "The Nokia C31 (128GB) is a dependable and user-friendly smartphone designed to deliver an excellent experience at an affordable price. With its 128GB of internal storage, this device provides ample space for your photos, videos, apps, and files, ensuring you can carry your essentials without worrying about running out of storage.\n\nThe Nokia C31 features a large 6.7-inch HD+ display, offering vibrant colors and a crisp viewing experience, whether you're streaming videos, browsing the web, or scrolling through social media. Powered by a reliable Octa-core processor and optimized with Android 12, the phone ensures smooth performance for everyday tasks and a clean, intuitive user interface.\n\nEquipped with a versatile triple-camera setup, the Nokia C31 includes a 13MP main sensor, a 2MP depth sensor, and a 2MP macro lens, allowing you to capture stunning photos, whether it's a scenic landscape or close-up details. The 5MP front camera ensures clear and vibrant selfies and video calls.\n\nThe 5050mAh battery provides all-day power, keeping you connected and productive without frequent recharging. With 1-year of warranty included, the Nokia C31 is backed by Nokia's commitment to durability and reliability. It also features essential tools like a rear-mounted fingerprint sensor, face unlock, and a sturdy design, making it an excellent choice for anyone seeking a practical, budget-friendly smartphone.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615405/ong5n9fyos4mmu9dvgg0.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615413/ksezwsidim36lr5ax84l.png"
+            ],
+            "stock": 50,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": true,
+            "salePrice": 88,
+            "reviews": [],
+            "rating": 5
+        },
+        {
+            "rating": 4.5,
+            "name": "Oppo A3 - (128GB)",
+            "price": 1759,
+            "description": "The Oppo A3 (128GB) is a sleek and stylish smartphone that combines impressive storage capacity with reliable performance. With 128GB of internal storage, this device ensures ample space for your photos, videos, apps, and files, making it perfect for users who need room for all their digital essentials.\n\nFeaturing a 6.2-inch Full HD+ display, the Oppo A3 delivers vibrant colors and sharp visuals, providing an immersive viewing experience for videos, gaming, and browsing. Its modern and lightweight design ensures comfortable handling, making it both practical and aesthetically appealing.\n\nPowered by a MediaTek Helio P60 processor and running on Oppo's intuitive ColorOS, the A3 offers smooth multitasking and seamless app navigation. It includes a 16MP rear camera that captures sharp, detailed photos and a 8MP front camera for vibrant selfies and clear video calls.\n\nThe 3400mAh battery ensures reliable, all-day performance, keeping you connected and productive throughout your busy schedule. With 1 year of warranty, the Oppo A3 is a dependable smartphone designed to meet your daily needs with style and efficiency.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615582/taydftzp7dgrcmnbpcfx.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615589/uxyhuj0n4vivj9mkbzjd.png"
+            ],
+            "stock": 50,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Oppo A60 - (256GB) ",
+            "price": 220,
+            "description": "The Oppo A60 (256GB) is a powerhouse smartphone designed for those who demand style, performance, and ample storage. With an impressive 256GB of internal storage, this device provides more than enough space for your high-resolution photos, videos, apps, and files, ensuring you never run out of room.\n\nSporting a 6.5-inch AMOLED display, the Oppo A60 offers stunning visuals with vibrant colors and deep contrasts, making every video, game, or image come to life. Its sleek and modern design, paired with a lightweight build, makes it both elegant and easy to handle.\n\nPowered by an advanced Qualcomm Snapdragon processor, the Oppo A60 ensures smooth multitasking and fast performance, whether you're browsing, streaming, or gaming. The 64MP triple-camera system captures professional-grade photos, while the 16MP front camera delivers crisp selfies and crystal-clear video calls.\n\nEquipped with a long-lasting 5000mAh battery, the Oppo A60 supports all-day use, and its fast-charging capability ensures you're back up and running in no time. Backed by a 1-year warranty, the Oppo A60 is a premium smartphone that combines cutting-edge features with reliability and style.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615849/iaw2bas9xqlgamh3dsju.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1734615858/fz1lgewdv0m233makbks.png"
+            ],
+            "stock": 50,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Samsung Galaxy Z Flip6",
+            "price": 1385,
+            "description": "Unfold the Future of Innovation\nExperience the ultimate blend of style, portability, and cutting-edge technology with the Samsung Galaxy Z Flip6. Designed to fit in your pocket and unfold to reveal a stunning, immersive display, this next-generation foldable smartphone redefines what a phone can do.\n\nKey Features:\n\nCompact Design, Big Impact: The innovative clamshell design folds neatly to fit anywhere while offering a generous screen size when opened.\nDynamic AMOLED Display: Enjoy vibrant colors, sharp details, and a smooth refresh rate, making every interaction feel seamless and responsive.\nPowerful Performance: Powered by the latest processor, the Galaxy Z Flip6 handles multitasking, gaming, and streaming effortlessly.\nRevolutionary Flex Mode: Take hands-free selfies, video call, or watch content at your preferred angle with its versatile hinge technology.\nPro-Grade Cameras: Capture stunning photos and videos with advanced camera features, including night mode, 8K video recording, and ultra-wide shots.\nDurable Build: Featuring Gorilla Glass Victus+ and an aluminum frame, it is built to last and withstand the rigors of everyday use.\n5G Connectivity: Stay ahead with blazing-fast internet speeds for streaming, gaming, and downloading on the go.\nWhether you're a tech enthusiast or a style icon, the Samsung Galaxy Z Flip6 is the perfect combination of form and function, delivering a premium smartphone experience that stands out from the crowd.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735213944/vfesngzqclav9ie41yon.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735213953/pvjftipxtadkxv9vgdgw.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735213953/hv7wwng8yzdrbibyt7dz.png"
+            ],
+            "stock": 40,
+            "category": "674333dc3c6ef21430283f9f",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Lenovo V15 G3 IAP",
+            "price": 537,
+            "description": "The Lenovo V15 G3 IAP is a reliable and affordable laptop designed to meet your everyday business and personal needs. Powered by the latest Intel processors, it ensures smooth multitasking and efficient performance for productivity tasks, while the 15.6-inch Full HD display delivers sharp visuals and vibrant colors, perfect for work, presentations, or streaming. Its slim and lightweight design makes it easy to carry, ideal for on-the-go use. With ample SSD storage, it provides fast boot times and plenty of space for files, media, and applications. Enhanced connectivity options, including USB-C, HDMI, and fast Wi-Fi, keep you seamlessly connected, while the full-size ergonomic keyboard ensures comfortable typing. Built-in security features like the firmware-based Trusted Platform Module (TPM) help safeguard your data, making the Lenovo V15 G3 IAP a dependable choice for professionals, students, and casual users alike.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735214295/wadkp2iutfw3pfvy0any.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735214304/jd30cbywjv9wdnv9lb8h.png"
+            ],
+            "stock": 55,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Lenovo IdeaPad Slim 3",
+            "price": 540,
+            "description": "The Lenovo IdeaPad Slim 3 is a versatile and lightweight laptop designed for everyday computing, combining performance, style, and affordability. Powered by efficient processors and featuring integrated graphics, it delivers smooth multitasking and reliable performance for work, study, or entertainment. Its slim and sleek design ensures portability, while the 15.6-inch Full HD display offers crisp visuals and vibrant colors, perfect for streaming, browsing, and productivity tasks. With ample SSD storage and fast boot times, it provides a seamless user experience. The laptop includes thoughtful features such as a privacy shutter on the webcam for enhanced security, a comfortable full-size keyboard, and multiple connectivity options, including USB-C, HDMI, and Wi-Fi 6. Whether you're a student, professional, or casual user, the Lenovo IdeaPad Slim 3 is a dependable and stylish choice to keep up with your daily needs.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735214778/ejov8ujcw4w0ejfu7suj.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735214787/qtbsk4rpz5fzac2chuod.png"
+            ],
+            "stock": 25,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Microsoft Surface Laptop 6",
+            "price": 1199.99,
+            "description": "The Microsoft Surface Laptop 6 redefines elegance and performance, delivering a seamless blend of style, power, and innovation. Its ultra-sleek design, crafted with premium materials, offers exceptional portability and a modern aesthetic. Equipped with the latest Intel Core processors, this laptop ensures lightning-fast performance for multitasking, productivity, and creative tasks. The stunning 13.5-inch PixelSense touchscreen display provides vibrant colors and razor-sharp clarity, making it ideal for work, streaming, and design projects.\n\nThe Surface Laptop 6 boasts an all-day battery life, keeping you productive on the go, while its precision keyboard and large glass trackpad ensure comfort during extended use. With built-in Windows 11, advanced security features, and seamless integration with the Microsoft ecosystem, this laptop is perfect for professionals, students, and creators. Experience premium performance and style with the Microsoft Surface Laptop 6—a laptop that complements your lifestyle effortlessly.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735215081/vqu2dbkv3shvh9ug14z0.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735215094/jd613mbj077ft6wh3mxr.png"
+            ],
+            "stock": 35,
+            "category": "674336003c6ef21430283fb3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Yolo Watch Epic",
+            "price": 30,
+            "description": "Stay connected and in control with the Yolo Watch Epic, your ultimate wearable companion. This sleek and stylish smartwatch boasts a vibrant, high-resolution display, providing crystal-clear visuals and effortless navigation. Track your fitness goals with advanced health monitoring features, including heart rate tracking, step counting, and calorie burn analysis. Receive notifications, control your music playlists, and access your favorite apps directly from your wrist. With built-in GPS, you'll never get lost, and the long-lasting battery ensures you stay powered up all day. Upgrade your time-telling experience with the Yolo Watch Epic's modern design, premium materials, and cutting-edge technology. Experience the future of wearable tech at your fingertips.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735246729/he0epvoqtbtlqetzxwjw.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735246754/jfjagzbisgzxecqbxtio.png"
+            ],
+            "stock": 66,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": true,
+            "salePrice": 25,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Haylou Solar Lite",
+            "price": 28.42,
+            "description": "Embrace the power of the sun with the Haylou Solar Lite, a revolutionary smartwatch that harnesses solar energy to extend battery life. This eco-friendly wearable boasts a sleek, lightweight design and vibrant color display, providing a crystal-clear visual experience. Monitor your vital signs, track fitness goals, and receive smart notifications with seamless connectivity. With IP68 water resistance and durable construction, the Haylou Solar Lite keeps up with your active lifestyle. Enjoy uninterrupted wear with up to 30 days of battery life on a single charge, supplemented by solar charging for continuous power. Stay connected, stay fit, and stay sustainable with the Haylou Solar Lite – where innovation meets eco-friendliness.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735246897/t54clznlnnkteclc7hwn.png"
+            ],
+            "stock": 100,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Yolo Thunder Smart Watch",
+            "price": 22,
+            "description": "Unleash your inner strength with the Yolo Thunder Smart Watch, a rugged and feature-packed wearable designed for the fearless. Encased in a durable, IP68 water-resistant design, this watch withstands tough conditions, from intense workouts to outdoor adventures. Stay connected with Bluetooth 5.0, receiving notifications, controlling music, and accessing apps. Monitor vital signs, track fitness goals, and analyze sleep patterns. The Yolo Thunder's built-in GPS and GLONASS navigation ensure precise location tracking. With a long-lasting battery and rapid charging, stay powered up all day. Experience immersive visuals on the 1.7\" HD display and customize your look with interchangeable straps. Elevate your fitness journey, stay connected, and conquer your day with the unstoppable Yolo Thunder Smart Watch.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247028/m02nwuis0uyok64nxupj.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247029/g59qqimph3o20kyxrwhn.png"
+            ],
+            "stock": 55,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "name": "Yolo Arena Smart Watch",
+            "price": 28,
+            "description": "Step into the arena with confidence, wearing the Yolo Arena Smart Watch, your ultimate fitness companion. This sleek, ergonomic design ensures a comfortable fit, while the 1.4\" high-resolution display provides vivid visuals and effortless navigation. Track your performance with advanced fitness features: heart rate monitoring, step counting, distance tracking, and calorie burn analysis. Receive smart notifications, control music playback, and access favorite apps.\nBuilt-in GPS and GLONASS enable precise location tracking, while IP67 water resistance withstands sweat and rain. Extend your workout with up to 15 days of battery life and rapid charging.\nCustomize your look with interchangeable straps and personalize your home screen with multiple watch faces. Unlock your fitness potential, stay connected, and dominate your day with the Yolo Arena Smart Watch – where style meets performance.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247134/ojizyvn0xwg753depboo.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247134/zvz6hpehskwoehzlbdt2.png"
+            ],
+            "stock": 88,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": true,
+            "salePrice": 22,
+            "reviews": [],
+            "rating": 4.5
+        },
+        {
+            "rating": 4.5,
+            "name": "Xiaomi Redmi 5 Active",
+            "price": 33.99,
+            "description": "Empower Your Active Lifestyle with Xiaomi Redmi Watch 5 Active\nStay fit, connected, and in control with the Xiaomi Redmi Watch 5 Active, designed for those who demand more. This sleek, lightweight smartwatch boasts a vibrant 1.43\" AMOLED display, providing crystal-clear visuals and intuitive navigation.\nTrack Your Fitness\nMonitor heart rate, blood oxygen, and sleep quality\nSupports over 120 fitness modes, including running, cycling, and swimming\nGPS, GLONASS, and Galileo satellite systems for precise tracking\nStay Connected\nReceive notifications, texts, and app alerts\nControl music playback and camera shutter\nCompatible with Android and iOS devices\nLong-Lasting Battery\nUp to 14 days of battery life on a single charge\nRapid charging for quick power boosts\nDurable and Water-Resistant\nIP68 rating withstands dust, water, and extreme temperatures\nLightweight design for comfortable wear\nPersonalize Your Watch\nInterchangeable straps for customizable style\nMultiple watch faces for a unique look\nUpgrade your fitness journey, stay connected, and take control with the Xiaomi Redmi Watch 5 Active – where performance meets style",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247335/gcjkrlvm7q6eydlmkx3s.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247336/f7d9vrd2l38alip9qcgu.png"
+            ],
+            "stock": 76,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Kieslect Calling Ks Mini",
+            "price": 35,
+            "description": "Stay Connected, Stay Free with Kieslect Calling Smartwatch KS Mini\nExperience the convenience of a smartphone on your wrist with the Kieslect Calling Smartwatch KS Mini. This compact, lightweight design makes it perfect for daily wear.\nMake and Receive Calls\nBuilt-in microphone and speaker for hands-free calls\nSupport for Bluetooth calling and SMS messaging\nTrack Your Fitness\nMonitor heart rate, steps, distance, and calories burned\nSupports multiple exercise modes\nStay Informed\nReceive notifications from social media, emails, and apps\nCustomizable notification alerts\nLong-Lasting Battery\nUp to 5 days of battery life on a single charge\nQuick charging for effortless power-ups\nDurable and Water-Resistant\nIP67 rating withstands splashes and dust\nCustomize Your Watch\nInterchangeable straps for personalized style\nMultiple watch faces for a unique look\nKey Features:\n1.54\" TFT color display\nBluetooth 5.0 connectivity\nCompatible with Android and iOS devices\nBuilt-in GPS for location tracking\nElevate your mobile experience, stay connected, and track your wellness with the Kieslect Calling Smartwatch KS Mini – compact, capable, and convenient.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247453/pfrp73tndu6378qoqooe.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247479/vlopl68thgsd7pjhgv2t.png"
+            ],
+            "stock": 44,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Haylou RS4 Max Calling",
+            "price": 40,
+            "description": "Experience Unlimited Freedom with Haylou RS4 Max Calling Smart Watch\nStay connected, track your fitness, and elevate your style with the Haylou RS4 Max Calling Smart Watch. This sleek, feature-rich wearable boasts a vibrant 1.8\" HD display, providing crystal-clear visuals and intuitive navigation.\nMake and Receive Calls\nBuilt-in microphone and speaker for hands-free calls\nSupport for Bluetooth 5.0 calling and SMS messaging\nAdvanced Fitness Tracking\nMonitor heart rate, blood oxygen, and sleep quality\nSupports over 100 fitness modes, including running, cycling, and swimming\nBuilt-in GPS, GLONASS, and Galileo for precise location tracking\nStay Informed and Entertained\nReceive notifications from social media, emails, and apps\nControl music playback and camera shutter\nAccess popular apps like Facebook, Twitter, and more\nLong-Lasting Battery\nUp to 20 days of battery life on a single charge\nRapid charging for quick power boosts\nDurable and Water-Resistant\nIP68 rating withstands dust, water, and extreme temperatures\nCustomize Your Watch\nInterchangeable straps for personalized style\nMultiple watch faces for a unique look\nAdditional Features:\nBlood pressure monitoring\nFemale cycle tracking\nSedentary reminder\nWeather forecast\nAlarm clock\nStopwatch\nStay connected, stay fit, and stay stylish with the Haylou RS4 Max Calling Smart Watch – where freedom meets functionality.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247686/ytsvjw0gnkl3tkngccay.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247693/h0xrf0xqyickbfbelozd.png"
+            ],
+            "stock": 78,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Yolo Yiller Smart Watch",
+            "price": 27,
+            "description": "Experience the perfect blend of fashion and functionality with the Yolo Yiller Smart Watch. This sleek, modern design boasts a vibrant 1.7\" HD display, providing crystal-clear visuals and effortless navigation. Track your wellness with advanced features like heart rate, blood oxygen, and sleep quality monitoring, as well as multiple exercise modes and built-in GPS.\nStay connected with seamless notifications from social media, emails, and apps, and control your music playback and camera shutter with ease. Enjoy long-lasting battery life, up to 15 days on a single charge, with rapid charging for quick power boosts. Durable and water-resistant, the IP67 rating withstands splashes and dust.\nPersonalize your watch with interchangeable straps and multiple watch faces, and access additional features like blood pressure monitoring, female cycle tracking, sedentary reminders, weather forecasts, alarm clocks, and stopwatches. Compatible with Android and iOS devices, the Yolo Yiller Smart Watch is the ultimate wearable companion.\nKey specifications include a high-performance CPU, 128MB RAM, 512MB ROM, 300mAh battery, and dimensions of 44.5 x 38 x 10.5mm, weighing just 45g. Upgrade your wearable experience with the Yolo Yiller Smart Watch – elegance, intelligence, and innovation at your wrist.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247956/esmgzanjgsfbul7nmlpp.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735247962/xrvaegeuonqz02d7mgqs.png"
+            ],
+            "stock": 22,
+            "category": "674336293c6ef21430283fb7",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple Macbook Air 15.3\" M3",
+            "price": 1999,
+            "description": "The Apple MacBook Air 15.3\" M3 is a powerful and portable laptop designed for seamless performance and productivity. It boasts an 8-core CPU and 10-core GPU, providing fast processing and graphics capabilities. The laptop features a stunning 15.3-inch Liquid Retina display with 2880 x 1864 resolution and 500 nits brightness, making it perfect for watching movies, browsing, and working.\nIn terms of performance, the MacBook Air 15.3\" M3 is powered by the Apple M3 chip, which provides a significant boost in processing speed and efficiency. The laptop comes with up to 24GB of unified memory and 2TB of SSD storage, ensuring that you have ample space for your files, apps, and data. With up to 18 hours of battery life, you can work or play all day without worrying about running out of power.\nThe MacBook Air 15.3\" M3 also features a range of connectivity options, including two Thunderbolt ports, a MagSafe charging port, Wi-Fi 6E, and Bluetooth 5.3. This makes it easy to connect your devices, transfer files, and stay connected with friends and family. The laptop's sleek and durable design weighs just 3.3 pounds, making it easy to carry around. It's available in midnight blue and features a backlit Magic Keyboard with Touch ID, providing an additional layer of security and convenience.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735249442/uzafj8mwvkye5igsbovr.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735249451/iewm3a5kbwpcydbor0dq.png"
+            ],
+            "stock": 20,
+            "category": "674363a73c6ef21430284003",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple Macbook Air 13.6",
+            "price": 1500,
+            "description": "The Apple MacBook Air 13.6\" M3 is a powerful and portable laptop. It features:\n13.6-inch Liquid Retina display (2520x1080, 500 nits)\nApple M3 chip (8-core CPU, 10-core GPU)\nUp to 24GB unified memory, 2TB SSD storage\nUp to 18 hours battery life\nTwo Thunderbolt ports, MagSafe, Wi-Fi 6E, Bluetooth 5.3\nBacklit Magic Keyboard with Touch ID\nAvailable in midnight blue, weighing 2.75 pounds\nStarting at Rs. 379,000 in Pakistan, the MacBook Air 13.6\" M3 offers impressive performance, stunning display, and sleek design, ideal for work, play, or everyday use.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735249656/qzjtcs5fshuljujlxlro.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735249663/w4vpprg4rtgpzyvrlw3m.png"
+            ],
+            "stock": 15,
+            "category": "674363a73c6ef21430284003",
+            "isOnSale": true,
+            "salePrice": 1200,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Dahua LM22-B200S 21.45",
+            "price": 120,
+            "description": "\nThe Dahua LM22-B200S 21.45 is a 21.45-inch LED monitor with:\nFull HD (1920x1080) resolution\n60Hz refresh rate\n250cd/m² brightness\n1000:1 contrast ratio\nVGA, HDMI, and DisplayPort connectivity\nBuilt-in speakers\nTilt-adjustable stand\nVESA mount compatible\nKey features:\nEnergy-efficient LED panel\nWide viewing angles (178°/178°)\nFast 5ms response time\nSupports multiple display modes\nSuitable for:\nOffice work\nWeb browsing\nStreaming\nGaming",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735250386/kd36crcpei4aa4kufaem.png"
+            ],
+            "stock": 22,
+            "category": "6743369b3c6ef21430283fc3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Dahua LM24-A200 24",
+            "price": 130,
+            "description": "The Dahua LM24-A200 24-inch monitor features:\nFull HD (1920x1080) resolution\n60Hz refresh rate\n250cd/m² brightness\n1000:1 contrast ratio\nVGA, HDMI, and DisplayPort connectivity\nBuilt-in speakers\nTilt-adjustable stand\nVESA mount compatible\nKey benefits:\nCrystal-clear visuals\nEnergy-efficient LED panel\nWide viewing angles (178°/178°)\nFast 5ms response time\nMultiple display modes\nIdeal for:\nOffice work\nWeb browsing\nStreaming\nGaming\nHome entertainment",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735250544/xxtz76kb5iyzalkgmilu.png"
+            ],
+            "stock": 22,
+            "category": "6743369b3c6ef21430283fc3",
+            "isOnSale": true,
+            "salePrice": 108,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Samsung LS22C3 22",
+            "price": 118,
+            "description": "The Samsung LS22C310EAMXUE 22” FHD Essential Monitor offers:\n22-inch Full HD (1920x1080) display\n60Hz refresh rate\n250cd/m² brightness\n1000:1 contrast ratio\nVGA, HDMI, and DisplayPort connectivity\nBuilt-in speakers\nTilt-adjustable stand\nVESA mount compatible\nKey features:\nCrystal-clear visuals\nEnergy-efficient LED panel\nWide viewing angles (178°/178°)\nFast 5ms response time\nEye Saver Mode (reduces blue light)\nFlicker Free technology",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735250726/hn8peafgwir1qd2ym4g8.png"
+            ],
+            "stock": 22,
+            "category": "6743369b3c6ef21430283fc3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Hikvision Borderless Monitor",
+            "price": 80,
+            "description": "The Hikvision DS-D5024FN 24\" FHD Borderless Monitor features:\n24-inch Full HD (1920x1080) display\nBorderless design for immersive viewing\n60Hz refresh rate\n250cd/m² brightness\n1000:1 contrast ratio\nVGA, HDMI, and DisplayPort connectivity\nBuilt-in speakers\nTilt-adjustable stand\nVESA mount compatible\nKey benefits:\nSeamless visuals without borders\nCrystal-clear Full HD resolution\nWide viewing angles (178°/178°)\nFast 5ms response time\nEnergy-efficient LED panel",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735250892/aixir0lqp56c2qfufd0o.png"
+            ],
+            "stock": 22,
+            "category": "6743369b3c6ef21430283fc3",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple iPhone 16 Pro",
+            "price": 1225,
+            "description": "\nThe Apple iPhone 16 Pro with 256GB storage starts at $1,449. It boasts a 6.9″ or 6.3″ Super Retina XDR display, ProMotion technology, and an Always-On display. The phone's durable design features titanium with textured matte glass back and an Action button.\nKey Features:\nPro Camera System: 48MP Fusion, 48MP Ultra Wide, and Telephoto lenses for super-high-resolution photos and next-generation portraits\nEmergency Features: Emergency SOS via satellite, Crash Detection, and Messages via satellite\nLong-Lasting Battery: Up to 33 hours of video playback\nFast Connectivity: USB-C with USB 3 support\nSecure Biometric: Face ID\nYou can purchase the iPhone 16 Pro directly from Apple's website or visit an Apple Store. Financing options and trade-in programs are available.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295033/fj68wow2sbexrjrtdkal.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295042/cgsfgbnwjgwnyyszq7fr.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295049/c3ftxbeqifsqknogqtay.png"
+            ],
+            "stock": 23,
+            "category": "674368bf3c6ef21430284035",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple iPhone 14",
+            "price": 1000,
+            "description": "The Apple iPhone 14 with 128GB storage is priced at Rs 161,999 in Pakistan, with a 1-year international/local warranty and doorstep delivery within 24-48 hours. This phone features a 6.1-inch Super Retina XDR display, A15 Bionic chip, dual-camera system, and up to 26 hours of video playback ¹.\nSome of its key features include ²:\nDisplay: 6.1-inch Super Retina XDR display with 2532-by-1170-pixel resolution at 460 ppi\nChip: A15 Bionic chip with 6-core CPU and 5-core GPU\nCamera: Dual-camera system with 12MP Main and 12MP Ultra Wide lenses\nBattery Life: Up to 26 hours of video playback\nDurability: Rated IP68 for splash, water, and dust resistance\nYou can purchase the iPhone 14 directly from Apple's website or visit an Apple Store. Financing options and trade-in programs are available",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295271/wlja1fljgfhjmfzlqwnr.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295280/scww0u7cvcok475puycg.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295280/ry5odd4ahcbxbvwbgyxk.png"
+            ],
+            "stock": 22,
+            "category": "674368bf3c6ef21430284035",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Apple iPhone 13",
+            "price": 850,
+            "description": "\nThe Apple iPhone 13 with 128GB storage is available in various colors, including (PRODUCT)RED, Starlight, Midnight, Blue, and Pink. Prices in Pakistan range from Rs 115,000 to Rs 349,000, depending on the condition and warranty ¹ ².\nKey Features:\nDisplay: 6.1-inch Super Retina XDR display with 2532-by-1170-pixel resolution at 460 ppi\nChip: A15 Bionic chip with new 6-core CPU and 4-core GPU\nCamera: Dual 12MP camera system with Wide and Ultra Wide cameras\nBattery Life: Up to 19 hours of video playback\nDurability: Rated IP68 for splash, water, and dust resistance",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295468/om0krghe0m7a9dasricu.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735295475/ct8sonhcmdl0qhp9po84.png"
+            ],
+            "stock": 55,
+            "category": "674368bf3c6ef21430284035",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Acefast H2 headphones",
+            "price": 30,
+            "description": "Acefast H2 noise canceling Bluetooth headphones\nThe Acefast H2 noise-canceling Bluetooth headphones offer a superior sound experience and ultimate comfort. They feature advanced noise-canceling technology and dynamic HiFi sound for an immersive audio experience.\nSome key features of the Acefast H2 headphones include ¹ ² ³:\nPremium Noise Cancellation: Blocks out background noise for focused listening\nDynamic HiFi Sound: Delivers clear, detailed audio\nComfortable Design: Fits snugly for extended wear\nLong-Lasting Battery: Provides hours of uninterrupted listening",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735296016/ih2h41czbig5hrbgvdte.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735296024/j02jlrdlntdhv8hima70.png"
+            ],
+            "stock": 44,
+            "category": "674336483c6ef21430283fbb",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "name": "Anker Soundcore Life 2",
+            "price": 34,
+            "description": "The Anker Soundcore Life 2 Neo Wireless Headphones are a popular choice for music lovers. With oversized, titanium-coated 60mm drivers, they deliver exceptional sound quality and 100% more bass. The foldable design and flexible earcups ensure a comfortable fit, making them perfect for daily use ¹ ².\nKey Features:\nLong Battery Life: Enjoy up to 60 hours of playtime without interruption, and fast charging gives you 5 hours of playtime with just 5 minutes of charging\nConvenient Connectivity: Connect wirelessly via Bluetooth or wired via AUX, compatible with multiple devices\nHands-Free Calls: Built-in microphone for clear hands-free calls",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735296201/dol4ebp9bboqferyxwzu.png"
+            ],
+            "stock": 22,
+            "category": "674336483c6ef21430283fbb",
+            "isOnSale": true,
+            "salePrice": 28,
+            "reviews": [],
+            "rating": 4
+        },
+        {
+            "rating": 4.5,
+            "name": "A4tech Bloody G220S ",
+            "price": 20,
+            "description": "The A4tech Bloody G220S Gaming Headset in black is a popular choice among gamers. Here are its key features ¹ ² ³:\nSound Quality: 50mm speaker unit with NdFeb magnets and high-tension CCAW coil for accurate sound reproduction\nComfort: Large protein leather ear pads, adjustable metal headband, and extremely lightweight design\nDesign: 7-color circular breathing light on earcups for a cool gaming ambiance\nMicrophone: Single-directional mic with ultra-good noise-cancelling capabilities\nTechnical Specs:\nFrequency Response: 20 Hz - 20 KHz\nSensitivity: 100 dB\nImpedance: 16 ohm\nCable Length: 200 cm\nPort: USB",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735299029/la1d4upngvckqhx9sn9m.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735299035/uudp0qrxcl7bexj8uus7.png"
+            ],
+            "stock": 30,
+            "category": "674336483c6ef21430283fbb",
+            "isOnSale": true,
+            "salePrice": 25,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Redragon Themis 2 ",
+            "price": 22,
+            "description": "The Redragon Themis 2 H220N is a wired gaming headset packed with impressive features. Enjoy stereo surround sound, noise cancellation, and a comfortable fit thanks to premium super cushion pads and an adjustable ergonomically designed headband ¹.\nKey Features:\nHigh-Quality Sound: 50mm dynamic driver unit for clear audio and intelligent extreme bass for an immersive gaming experience\nCrystal Clear Chat: 360-degree sound source absorbed hidden microphone for loud and clear voice pickup\nVersatile Compatibility: Supports PC, PS4/3, Xbox One, Nintendo Switch, laptops, tablets, iPads, and smartphones\nPlug & Play: No setup or installation required, ready for instant use\nCustomizable: Built-in volume adjustment and microphone switch design\nTechnical Specifications:\nPlug Type: 3.5mm x 2\nSpeaker Diameter: φ50MM\nSensitivity: 116±3dB S.P.L. at 1KHz\nFrequency Response: 20~20000 Hz\nImpedance: 16Ω±15%\nMic Dimensions: Φ60 * 2.7mm\nMic Sensitivity: -38±2dB (0dB =1V/PA)\nMic Impedance: ≤ 2.2K Ω(Max)",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735299122/lc7rtdagshdw81ifvq64.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735299127/kk50qp5uuxonmtizstih.png"
+            ],
+            "stock": 22,
+            "category": "674336483c6ef21430283fbb",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "R-190 Earbuds",
+            "price": 15,
+            "description": "\nThe Ronin R-190 earbuds offer:\nKey Features\nTrue Wireless: Bluetooth 5.0 connectivity for seamless audio streaming\nLong Battery Life: Up to 5 hours playtime, 24 hours with charging case\nCompact Design: Ergonomic fit, lightweight (4g each)\nClear Audio: 10mm dynamic drivers, deep bass, clear treble\nHands-Free Calls: Built-in microphone, voice assistant support\nWater Resistance: IPX4 rating, sweat and splash-proof\nTechnical Specifications\nDriver Size: 10mm\nFrequency Response: 20Hz-20kHz\nSensitivity: 100dB\nImpedance: 16Ω\nCharging Time: 1.5 hours (earbuds), 2 hours (charging case)\nWeight: 4g (earbuds), 30g (charging case)\nWhat's in the Box\nRonin R-190 earbuds\nCharging case\nUSB-C charging cable\nUser manual\nWarranty card",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300027/tmxg6afladvtnkzzy2kc.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300036/uxcvjey200jrz29hovg1.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300037/sykr14s8lfpuc57ccmcd.png"
+            ],
+            "stock": 25,
+            "category": "674336683c6ef21430283fbf",
+            "isOnSale": true,
+            "salePrice": 20,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "R-7020 Earbuds",
+            "price": 12.99,
+            "description": "The Ronin R-7020 Earbuds are a gaming-focused wireless earbud option, priced at Rs. 4,395. Here are some key features ¹ ²:\nSpeaker Driver: 13mm for clear audio\nConnectivity: Bluetooth V5.3 with 10m wireless range\nCompatibility: Android and iOS devices\nBattery Life: Up to 5-6 hours music time, 80 hours standby time\nCharging: 1.5 hours for earbuds, 2-2.5 hours for charging case\nWater Resistance: IPX5 rating\nAdditional Features: Game Mode, Environmental Noise Reduction, Stereo Sound, Hands-free Calling, Voice Assistant support",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300151/a25qrnu3vu6iyndyfwbu.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300159/jzwe6atykqvjqozk850a.png"
+            ],
+            "stock": 22,
+            "category": "674336683c6ef21430283fbf",
+            "isOnSale": true,
+            "salePrice": 18,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "R-540 EarBuds",
+            "price": 17,
+            "description": "\nThe Ronin R-540 EarBuds are a popular choice among music lovers and gamers alike. They offer a unique combination of features, including:\nGaming Mode: Enhanced audio for immersive gaming experiences\nMusic Mode: Optimized sound for music listening\nEnvironmental Noise Cancellation (ENC): Reduces background noise for clearer calls and music\nLong Battery Life: Up to 7 hours of playtime and 90 hours of standby time\nBluetooth 5.3 Connectivity: Stable and fast connection with devices\nIn terms of design, the R-540 EarBuds have a sleek and compact charging case, making them easy to carry around. They're also available in three colors: black, cream, and blue",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300325/eaxvegzsxe2mxcrduibd.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300333/sbrjbvlee4njynsnxcse.png"
+            ],
+            "stock": 44,
+            "category": "674336683c6ef21430283fbf",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "R-140 Earbuds",
+            "price": 19.99,
+            "description": "\nThe Ronin R-140 Earbuds boast premium Active Noise Cancellation (ANC) and Environmental Noise Cancellation (ENC) technology, ensuring an immersive audio experience. With 10mm speaker drivers, Bluetooth 5.3 connectivity, and a 10-meter wireless range, these earbuds deliver clear sound and convenient connectivity ¹.\nKey Features:\nPremium ANC + ENC: Blocks background noise for focused listening\nLong Battery Life: Up to 5 hours music time, 80 hours standby time\nComfortable Design: Ergonomic fit, lightweight (37mAh each)\nHands-Free Calling: Quad Mic ENC for clear calls\nVoice Assistant: Supports Siri and Google Assistant\nTechnical Specifications:\nSpeaker Driver: 10mm\nConnectivity: Bluetooth 5.3\nWireless Range: 10m\nBattery Life: Up to 5 hours music time, 80 hours standby time\nCharging Time: Up to 2 hours (earbuds), 3-3.5 hours (charging case)",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300456/cbbdjlnvkfzxbhzjrk5n.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735300461/w8pg78youwytszdp9xat.png"
+            ],
+            "stock": 33,
+            "category": "674336683c6ef21430283fbf",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "FUJIFILM X-M5 Mirrorless",
+            "price": 999.99,
+            "description": "The FUJIFILM X-M5 Mirrorless Camera with XC 15-45mm f/3.5-5.6 Lens (Black) is a sleek and feature-packed camera perfect for photography enthusiasts. With its 26.1MP APS-C X-Trans 4 CMOS Sensor and X-Processor 5 Image Processor, you'll capture stunning images with vibrant colors and crisp details ¹.\nKey Features:\nHigh-Quality Video Recording: 6.2K/29.97 fps video and 10-bit internal recording for professional-grade footage\nAdvanced Autofocus: 425-point AF system with AI-based subject detection for precise focusing\nVersatile Lens: XC 15-45mm f/3.5-5.6 lens ideal for everyday shooting, landscapes, and portraits",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735306853/h7vpgazrzvcsil0w9fat.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735306860/bnww9xqx8ldai2kkuvpq.png"
+            ],
+            "stock": 19,
+            "category": "67436a5e3c6ef2143028403b",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Fujifilm X-T1 Mirrorless ",
+            "price": 750,
+            "description": "\nThe Fujifilm X-T1 Mirrorless Digital Camera with 18-135mm Lens (Black) is a highly-regarded camera that boasts impressive features. Its 16.3MP APS-C X-Trans CMOS II Sensor and EXR Processor II provide exceptional image quality, while the 0.5\" 2360k-Dot 0.77x OLED Viewfinder offers a clear viewing experience ¹.\nKey Features:\nWeather-Sealed Body: Resistant to dust and moisture\nFast Autofocus: Accurate and speedy focusing\nHigh-Quality Video: 1080p at 60fps\nVari-Angle LCD: 3.0\" 1,040k-Dot screen for flexible composition\n² ¹\nPerformance and Ergonomics:\nThe camera's performance is praised for its image quality, with users noting it's comparable to higher-end SLRs. The ergonomic design, including the optional large grip, makes handling comfortable ².",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307012/jb00ubveuplls0jtp6qo.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307019/lfbaq613xr5up0n83df5.png"
+            ],
+            "stock": 22,
+            "category": "67436a5e3c6ef2143028403b",
+            "isOnSale": true,
+            "salePrice": 849,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Fujifilm X-Pro1 ",
+            "price": 949.99,
+            "description": "he Fujifilm X-Pro1 digital camera body is a highly-regarded model, especially among street photographers, due to its exceptional build quality, image quality, and hybrid optical/electronic viewfinder. Although it's over a decade old, this camera still holds its own, producing amazing images with its 16.3MP APS-C X-Trans sensor.\nKey Features\n16.3MP APS-C X-Trans Sensor: Provides excellent image quality and flexibility with film simulation recipes\nHybrid Optical/Electronic Viewfinder: Offers immersive shooting experience\nX-Mount: Compatible with various lenses, including Fujinon 23mm F2 and third-party options like Viltrox and 7Artisans\nBuild Quality: Durable, compact, and ergonomic design\nPerformance and Limitations\nWhile the X-Pro1 excels in image quality, it has some limitations, including:\nNo Weather Sealing: Requires extra care in harsh environments\nNo Electronic Shutter: Can be a concern for discreet shooting\nMax Shutter Speed: 1/4000th of a second, potentially limiting for very bright conditions",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307226/iaqq5t03pjim9fjeshyb.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307233/vr5s3dtraxixmvzwhv6h.png"
+            ],
+            "stock": 12,
+            "category": "67436a5e3c6ef2143028403b",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "Fujifilm X-A2 Mirrorless ",
+            "price": 599,
+            "description": "The Fujifilm X-A2 Mirrorless Digital Camera with 16-50mm Lens is an entry-level camera offering impressive image quality, great high ISO performance, and decent battery life. Its 16.3-megapixel APS-C sensor produces excellent images with fine detail and pleasing colors, making it suitable for both new and experienced photographers ¹.\nKey Features:\n16.3MP APS-C Sensor: Captures high-quality images with impressive high ISO performance\n3.13x Zoom 16-50mm Lens: Offers versatile focal length for everyday shooting\nTiltable LCD Screen: Allows for convenient selfie capture and waist-level shooting\nDecent Battery Life: Rated at 410 frames per charge\nClassic Styling: Compact, rangefinder-esque design with dual control dials\nPerformance and Limitations:\nWhile the X-A2 excels in image quality, it lacks an electronic viewfinder, which may be a drawback for advanced users. Continuous autofocus and burst speeds are also somewhat sluggish. However, its affordable price point and excellent value for the money make it an attractive option for those entering the Fuji X-system",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307431/zfkvvwjigwsjlwdvs5nr.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307438/jvvkdfxzkrykf5d3w3ns.png"
+            ],
+            "stock": 30,
+            "category": "67436a5e3c6ef2143028403b",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "EVENT 50W Woofer ",
+            "price": 199.99,
+            "description": "\nThe EVENT 50W Woofer & 30W Tweeter Two Way Sound System is a powerful portable speaker offering:\nKey Features\nDual Driver Setup: 50W woofer for deep bass and 30W tweeter for clear highs\nRGB Lighting: Colorful LED lights enhance ambiance\nPower Bank: Rechargeable battery with 6-hour playback time\nPortable Design: Compact, lightweight, and easy to carry\nConnectivity: Bluetooth, AUX, USB, and TF card support\nTechnical Specifications\nPower Output: 80W (50W woofer + 30W tweeter)\nFrequency Response: 20Hz - 20kHz\nBattery Capacity: 4000mAh\nCharging Time: 2-3 hours\nWeight: 2.5kg\nBenefits\nImmersive Sound: Clear highs and deep bass\nLong-Lasting Battery: 6-hour playback\nConvenient Charging: Power bank for devices\nCustomizable Lighting: RGB LEDs",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307683/aq3p612zts52nefcxsoc.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735307689/q9xrxtib4eumpsllwoll.png"
+            ],
+            "stock": 11,
+            "category": "67436b963c6ef21430284041",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "HiFuture Music Box",
+            "price": 119.99,
+            "description": "The HiFuture Music Box Wireless Karaoke with Microphones is a powerful portable speaker designed to bring vibrant sound and fun to parties, events, or casual gatherings. With a 100W output capacity, it delivers balanced and immersive audio, thanks to its two tweeters handling high-frequency vocals and melodies, and two woofers producing deep bass and low-frequency sounds ¹ ² ³.\nKey Features:\nRGB LED Lights: Synchronize with music to create dazzling colors and patterns\nTrue Wireless Stereo (TWS): Pair two speakers for an immersive soundstage\nDual Wireless Microphones: Perfect for duets and group sing-alongs\nBuilt-in Power Bank: 12000mAh battery for extended music playback and device charging\nPortable Design: Adjustable carrying strap for easy transport",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311530/wksrlzyocjqyouwxy9pn.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311536/injbl5eyzj13bih0gbru.png"
+            ],
+            "stock": 22,
+            "category": "67436b963c6ef21430284041",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "name": "Ripple Wireless Speaker",
+            "price": 24.99,
+            "description": "The Ripple portable wireless speaker offers 12 hours of uninterrupted music playback, wireless connectivity, and water resistance. Its key features include:\nWater Resistance: IPX7 rating, ensuring protection against dust and water\nLong Battery Life: 4000mAh polymer battery providing up to 12 hours of playtime\nWireless Connectivity: Bluetooth 5.3 for easy pairing with devices\nDurable Design: Power-coated silicone exterior for rugged adventures\nQuality Sound: 20W1 and 10W1 speaker rated power for balanced tones\nThis speaker is perfect for outdoor gatherings or travel, weighing 635g and measuring 10 meters in wireless range. Available colors include red and blue",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311687/kytlp9xnmj32zqolenvq.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311693/zkowhoijmukruimuzkic.png"
+            ],
+            "stock": 22,
+            "category": "67436b963c6ef21430284041",
+            "isOnSale": true,
+            "salePrice": 30,
+            "reviews": [],
+            "rating": 4.714285714285714
+        },
+        {
+            "rating": 4.5,
+            "name": "HiFuture ALTUS 10W",
+            "price": 18.99,
+            "description": "\nThe HiFuture ALTUS 10W Wireless Portable Speaker is a compact, rugged, and waterproof speaker perfect for outdoor adventures and everyday use. With its 10W output, it produces crystal-clear sound and powerful bass. The speaker has a durable exterior, multiway strap, and IPX5 rating, making it suitable for various situations, from hiking to pool parties.\nKey Features:\nUltra-Portable Design: Weighs 157g, with a compact design and attached strap for easy carrying\nWaterproof and Dustproof: IPX7 rating ensures protection against water and dust\nLong Battery Life: Up to 8 hours of playtime, with 2 hours charging time\nFast Connectivity: Bluetooth 5.3 for stable and fast pairing\nTWS Mode: Connect two speakers simultaneously for enhanced sound\n¹\nAdditional Features:\nMono and TWS playing modes\nEdgy design with stylish appearance\n12-month warranty",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311913/csdqjsvcvqdzo8ddykhu.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735311920/ilbmaiwf9fh4qqudsope.png"
+            ],
+            "stock": 10,
+            "category": "67436b963c6ef21430284041",
+            "isOnSale": false,
+            "reviews": []
+        },
+        {
+            "rating": 4.5,
+            "name": "A4tech Bloody G535",
+            "price": 25.99,
+            "description": "7.1 Virtual Sound:\n\nExperience true directional sound to detect your enemies based on their location and immerse yourself in virtual gaming worlds.\n\n \n\nCool RGB Light:\n\nThe RGB lights designed on earcups are cool enough to create a glorious game atmosphere for your game.\n\n \n\n50mm Speaker Unit:\n\n50 mm speaker contains NdFeb magnets and high tension CCAW coil. Unique laser trimmed diaphragm offers an extremely accurate. Reproduction of the gaming audio.\n\n \n\nDetachable Single-Directional Mic:\n\nDetachable noise cancelling single-directional microphone reduces unwanted background noise effectively. And you can remove it from the ear cap as your will.\n\n \n\nIn-Line Controller:\n\nWith in-line Volume Control wheel, Backlit Button & Mic-mute button, simplify your game operation, ensures that loud & high definition voice talks in games or online chat.\n\n \n\nPremium Comfort:\n\nLarge ergonomic 3D protein leather ear pads provide supreme comfort for your ears!\n\n \n\nBLOODY HIGH END GAMING HEADPHONES:\n\nConsist of high-quality materials for the highest comfort even after hours of computer adventures. Even the most demanding gamers will be thrilled of the elegant design. In terms of quality and comfort, Bloody never compromises. The intelligent earcups eliminate all the noises and ensure comfort even during long hours of listening.",
+            "images": [
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735404061/kfjgtn2a86h4p2xzl3eh.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735404070/b5sghbwimbgp9ovxxusn.png",
+                "https://res.cloudinary.com/de6vbbce4/image/upload/v1735404070/qpsupyduc9gnmfjbah00.png"
+            ],
+            "stock": 33,
+            "category": "674336483c6ef21430283fbb",
+            "isOnSale": false,
+            "reviews": []
+        }
+    ]
