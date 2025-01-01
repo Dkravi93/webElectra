@@ -47,18 +47,18 @@ export async function POST(req: NextRequest) {
         console.log("REVIEWS: ", product.reviews);
 
         // return the newly added review
-        const newReview = product.reviews[product.reviews.length - 1];
+        const newReview = product.reviews[product.reviews?.length - 1];
         console.log("NEW REVIEW: ",newReview);
 
         // @ts-ignore // Calculate the new average rating
         const totalRating = product.reviews.reduce((acc, review) => acc + review.rating, 0);
-        product.rating = totalRating / product.reviews.length;
+        product.rating = totalRating / product.reviews?.length;
         await product.save();
 
         return NextResponse.json({
             status: 200,
             message: "Review added successfully",
-            reviews: product.reviews.splice(0, product.reviews.length - 1), // send all reviews except the newly added one
+            reviews: product.reviews.splice(0, product.reviews?.length - 1), // send all reviews except the newly added one
             newReview,
         });
     } catch (error) {

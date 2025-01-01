@@ -36,7 +36,7 @@ const recentSearchesSlice = createSlice({
       state.searches.push(search);
 
       // Keep only the latest 5 searches
-      if (state.searches.length > 5) {
+      if (state.searches?.length > 5) {
         state.searches = state.searches.slice(1,6) // Remove the oldest search
       }
     },

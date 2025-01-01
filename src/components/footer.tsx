@@ -5,7 +5,6 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
 import { useFetchCategories } from '@/hooks/useFetchCategories'
-import { useEffect } from 'react'
 
 const pages = [
   { name: "About Us", href: "/about-us" },

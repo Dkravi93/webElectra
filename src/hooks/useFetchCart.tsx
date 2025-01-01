@@ -13,7 +13,7 @@ export const useFetchCart = () => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    if (cart.length === 0 && session?.user?.email) {
+    if (cart?.length === 0 && session?.user?.email) {
       const fetchCartProducts = async () => {
         setLoading(true);
         setError(null);

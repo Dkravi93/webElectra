@@ -51,7 +51,7 @@ export default function WishlistPage() {
   
     const handleAddToCart = async (id) => {
       try { // @ts-ignore
-        if (cart.length !== 0 && session?.user?.email) {
+        if (cart?.length !== 0 && session?.user?.email) {
           const cartItem = cart.find((item) => item.productId === id);
           if (cartItem) {
             const newQuantity = cartItem.quantity + 1; // @ts-ignore
@@ -104,7 +104,7 @@ export default function WishlistPage() {
             ) :
             isLoading ? (
               <p className="text-center">Loading your wishlist...</p>
-            ) : wishlist.length === 0 ? (
+            ) : wishlist?.length === 0 ? (
               <p className="text-center">Your wishlist is empty.</p>
             ) : (
               <div className="space-y-4">

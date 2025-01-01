@@ -56,7 +56,7 @@ export function SimilarProducts({ category, currentProductId }: SimilarProductsP
     return <SimilarProductsSkeleton />
   }
 
-  if(filteredProducts.length === 0) {
+  if(filteredProducts?.length === 0) {
     return <div></div>
   }
 

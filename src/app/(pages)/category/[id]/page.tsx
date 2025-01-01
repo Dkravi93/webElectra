@@ -61,7 +61,7 @@ export default function CategoryPage() {
   }, [categoryProducts, saleOnly, sort])
 
   // Pagination
-  const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE)
+  const totalPages = Math.ceil(filteredProducts?.length / ITEMS_PER_PAGE)
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE
   const endIndex = startIndex + ITEMS_PER_PAGE
   const currentProducts = filteredProducts.slice(startIndex, endIndex)

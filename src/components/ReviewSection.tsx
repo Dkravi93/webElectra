@@ -104,7 +104,7 @@ export function ReviewSection({ productId, session }: ReviewSectionProps) {
         </form>
       )}
       <div className="space-y-6">
-  {reviews.length > 0 ? (
+  {reviews?.length > 0 ? (
     reviews.map((review, index) => (
       <div key={index} className="border-b pb-4">
         <div className="flex items-center justify-between">

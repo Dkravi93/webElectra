@@ -20,17 +20,17 @@ export default function Home() {
   const categories = useSelector((state: RootState) => state.category.categories || 0);
 
   useEffect(() => {
-    if (products.length === 0) { // Only fetch if products are not already in state
+    if (products?.length === 0) { // Only fetch if products are not already in state
       const fetchProducts = async () => {
         const { data } = await axios.get('/api/products');
         dispatch(setProducts(data.products));
       };
       fetchProducts();
     }
-  }, [dispatch, products.length]);
+  }, [dispatch, products?.length]);
 
   useEffect(() => {
-    if (categories.length === 0) {
+    if (categories?.length === 0) {
       const fetchCategories = async () => {
         const { data } = await axios.get('/api/categories');
         console.log("Categories: ", data.categories);
@@ -38,7 +38,7 @@ export default function Home() {
       };
       fetchCategories();
     }
-  }, [dispatch, categories.length]);
+  }, [dispatch, categories?.length]);
 
   return (
     <div className="min-h-screen flex flex-col">

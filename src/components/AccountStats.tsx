@@ -55,7 +55,7 @@ export function AccountStats({createdAt}: {createdAt?: Date}) {
           <ShoppingBag className="w-4 h-4 text-muted-foreground" />
           <div>
             <p className="text-sm font-medium">Total Orders</p>
-            <p className="text-2xl font-bold">{orders.length}</p>
+            <p className="text-2xl font-bold">{orders?.length}</p>
           </div>
         </div>
         <div className="flex items-center space-x-2">

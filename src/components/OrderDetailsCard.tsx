@@ -41,7 +41,7 @@ export function OrderDetailsCard({ order }: OrderDetailsCardProps) {
   const [orderProducts, setOrderProducts] = useState<any []>([]);
 
   useEffect(() => {
-    if (!products || products.length === 0) return;
+    if (!products || products?.length === 0) return;
     const items = order.products.map(({ productId, quantity }) => {
         const product = products.find((p) => p._id === productId);
         return product

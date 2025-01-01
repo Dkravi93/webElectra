@@ -78,7 +78,7 @@ export function Navbar() {
               <span className="sr-only">Open menu</span>
             </Button>
             <Link href="/" className="flex items-center space-x-2">
-              <Image className='inline-block' src="https://res-console.cloudinary.com/ds7z5pw52/thumbnails/v1/image/upload/v1735668460/V2ViRWxlY3RyYV91eTB2cXI=/drilldown" alt="WebElectra" width={250} height={250} />
+              <Image className='inline-block' src="/WebElectra.png" alt="WebElectra" width={250} height={250} />
             </Link>
           </div>
 
@@ -103,7 +103,7 @@ export function Navbar() {
                 <Search className="h-4 w-4" />
                 <span className="sr-only">Search</span>
               </Button>
-              {searchQuery.length > 0 && (
+              {searchQuery?.length > 0 && (
                 <Suggestions
                   searchQuery={searchQuery}
                   onSelect={(productId) => {
@@ -125,7 +125,7 @@ export function Navbar() {
               <MenuItem setActive={setActive} active={active} item="Products">
                 <div className="hidden lg:flex items-center space-x-4">
                   {/* ... */}
-                  {categories.length && categories.map((category : { _id: string, name: string, image: string, description: string }) => (
+                  {categories?.length && categories.map((category : { _id: string, name: string, image: string, description: string }) => (
                     <ProductItem
                       key={category._id} // Fixed: Added type annotation for category
                       title={category.name}
@@ -168,9 +168,9 @@ export function Navbar() {
               </DropdownMenu> */}
               <Link href="/wishlist" className="relative inline-block hover:text-primary transition-colors">
                 <Heart className="h-5 w-5" />
-                {wishlist.length > 0 && (
+                {wishlist?.length > 0 && (
                   <span className="absolute -top-3 -right-3 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full">
-                    {wishlist.length > 5 ? '5+' : wishlist.length}
+                    {wishlist?.length > 5 ? '5+' : wishlist?.length}
                   </span>
                 )}
               </Link>
@@ -211,9 +211,9 @@ export function Navbar() {
             </div>
             <Button variant="none" size="icon" onClick={() => setIsCartOpen(true) }  className="relative hover:text-primary transition-colors" >
               <ShoppingCart className="h-7 w-7 hover:scale-125 scale-110 hover:text-primary" />
-                {cart.length > 0 && (
+                {cart?.length > 0 && (
                   <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full">
-                    {cart.length > 5 ? '5+' : cart.length}
+                    {cart?.length > 5 ? '5+' : cart?.length}
                   </span>
                 )}
             </Button>

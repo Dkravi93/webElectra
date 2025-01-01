@@ -34,7 +34,7 @@ export function ProductCard({ id, name, price, salePrice, images, rating, setSho
   
   
     useEffect(() => {
-      if(wishlist.length !== 0 && session?.user?.email) {
+      if(wishlist?.length !== 0 && session?.user?.email) {
         setIsWishlisted(wishlist.includes(id));
       }
     }, [wishlist, id]);
@@ -84,7 +84,7 @@ export function ProductCard({ id, name, price, salePrice, images, rating, setSho
         }
 
         try { // @ts-ignore
-          if (cart.length !== 0 && session?.user?.email) {
+          if (cart?.length !== 0 && session?.user?.email) {
             const cartItem = cart.find((item) => item.productId === id);
             if (cartItem) {
               const newQuantity = cartItem.quantity + 1; // @ts-ignore
@@ -103,13 +103,13 @@ export function ProductCard({ id, name, price, salePrice, images, rating, setSho
   const nextImage = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();    
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images?.length)
   }
 
   const prevImage = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();  
-    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images?.length) % images?.length)
   }
 
   return (
@@ -127,7 +127,7 @@ export function ProductCard({ id, name, price, salePrice, images, rating, setSho
           height={180}
           className="transition-transform duration-300 hover:scale-105 object-contain max-h-[300px]"
         />
-        {images.length > 1 && (
+        {images?.length > 1 && (
           <>
             <Button
               variant="ghost"

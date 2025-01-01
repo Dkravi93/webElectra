@@ -29,7 +29,7 @@ export function CategoryCarousel({ products }: ProductCarouselProps) {
     if (emblaApi) emblaApi.scrollNext()
   }, [emblaApi])
 
-  if(products.length === 0) {
+  if(products?.length === 0) {
     return <Skeleton />
   }
 
@@ -37,7 +37,7 @@ export function CategoryCarousel({ products }: ProductCarouselProps) {
     <div className="relative">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          {products.length && products.map((product) => (
+          {products?.length && products.map((product) => (
             <div key={product._id} className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] md:flex-[0_0_33.33%] lg:flex-[0_0_25%] px-4">
               <BackgroundGradientCards
                 id={product._id}

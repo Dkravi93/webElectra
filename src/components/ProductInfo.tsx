@@ -100,7 +100,7 @@ export function ProductInfo({ product, session }: ProductInfoProps) {
       }
 
       try { // @ts-ignore
-        if (cart.length !== 0 && session?.user?.email) {
+        if (cart?.length !== 0 && session?.user?.email) {
           const cartItem = cart.find((item) => item.productId === product._id);
           if (cartItem) {
             const newQuantity = cartItem.quantity + quantity; // @ts-ignore

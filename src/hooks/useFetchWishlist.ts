@@ -13,7 +13,7 @@ export const useFetchWishlist = () => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    if (wishlist.length === 0 && session?.user?.email) {
+    if (wishlist?.length === 0 && session?.user?.email) {
       const fetchWishlistProducts = async () => {
         setLoading(true);
         setError(null);
@@ -29,7 +29,7 @@ export const useFetchWishlist = () => {
 
       fetchWishlistProducts();
     }
-  }, [wishlist.length, session, dispatch]);
+  }, [wishlist?.length, session, dispatch]);
 
   return { wishlist, loading, error };
 };

@@ -39,7 +39,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
   
 
   useEffect(() => {
-    if (!cart || !products || cart.length === 0 || products.length === 0) return;
+    if (!cart || !products || cart?.length === 0 || products?.length === 0) return;
     const items = cart.map(({ productId, quantity }) => {
       const product = products.find((p) => p._id === productId);
       return product
@@ -121,7 +121,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
           <div className="flex-grow overflow-y-auto p-4">
             {isLoading ? (
               <CartSkeleton />
-            ) : cartItems.length === 0 ? (
+            ) : cartItems?.length === 0 ? (
               <p className="text-center text-muted-foreground">Your cart is empty.</p>
             ) : (
               cartItems.map((item) => (

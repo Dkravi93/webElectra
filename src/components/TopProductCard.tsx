@@ -40,7 +40,7 @@ export function TopProductCard({ _id, name, price, salePrice, images, rating }: 
   const [showSignInPopup, setShowSignInPopup] = useState(false);
 
   useEffect(() => {
-    if(wishlist.length !== 0 && session?.user?.email) {
+    if(wishlist?.length !== 0 && session?.user?.email) {
       setIsWishlisted(wishlist.includes(_id));
     }
   }, [wishlist, _id]);
@@ -78,7 +78,7 @@ export function TopProductCard({ _id, name, price, salePrice, images, rating }: 
   };
 
   const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images?.length);
   };
 
   const addToCart = async (e: React.MouseEvent) => {
@@ -91,7 +91,7 @@ export function TopProductCard({ _id, name, price, salePrice, images, rating }: 
     }
 
     try { // @ts-ignore
-      if (cart.length !== 0 && session?.user?.email) {
+      if (cart?.length !== 0 && session?.user?.email) {
         const cartItem = cart.find((item) => item.productId === _id);
         if (cartItem) {
           const newQuantity = cartItem.quantity + 1; // @ts-ignore

@@ -18,7 +18,7 @@ export function Suggestions({ searchQuery, onSelect }: SuggestionsProps) {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    if (searchQuery.length > 0) {
+    if (searchQuery?.length > 0) {
       const filteredProducts = products
         .filter(product => product.name.toLowerCase().includes(searchQuery.toLowerCase()))
         .slice(0, 5)
@@ -36,7 +36,7 @@ export function Suggestions({ searchQuery, onSelect }: SuggestionsProps) {
     dispatch(updateRecentSearchesAsync(product.name))
   }
 
-  if (suggestions.length === 0) return null
+  if (suggestions?.length === 0) return null
 
   return (
     <ul className="absolute z-10 w-full bg-background border border-input rounded-md shadow-lg mt-1">

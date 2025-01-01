@@ -79,7 +79,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
                 <AccordionTrigger>Products</AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col space-y-2">
-                    {categories.length && categories.map((category) => (
+                    {categories?.length && categories.map((category) => (
                       <Link
                         key={category._id}
                         href={`/category/${category._id}`}

@@ -37,7 +37,7 @@ export default function PaymentPage() {
       const [amount, setAmount] = useState(0);
     
       useEffect(() => {
-          if (cart && products.length) {
+          if (cart && products?.length) {
             const items = cart.map(({ productId, quantity }) => {
               const product = products.find((p) => p._id === productId);
               return product ? { ...product, quantity, image: product.images[0] } : null;
@@ -48,7 +48,7 @@ export default function PaymentPage() {
         }, [cart, products]);
         
         useEffect(() => {
-          if (cartItems.length) {
+          if (cartItems?.length) {
             const total = cartItems.reduce((total, item) => {
               return total + (item.isOnSale && item.salePrice ? item.salePrice * item.quantity : item.price * item.quantity);
             }, 0);
@@ -65,7 +65,7 @@ export default function PaymentPage() {
           )
         }
 
-        if(!amount && cartItems.length === 0) {
+        if(!amount && cartItems?.length === 0) {
           return (
             <div className="min-h-screen flex flex-col justify-center items-center">
               <h1 className="text-3xl font-semibold">Your cart is empty</h1>

@@ -50,7 +50,7 @@ export function RecentOrders() {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {orders.length > 0 ? orders.map((order) => (
+          {orders?.length > 0 ? orders.map((order) => (
             <div key={order._id} className="flex items-center justify-between">
               <div>
                 <p className="font-medium">Order #{order._id}</p>

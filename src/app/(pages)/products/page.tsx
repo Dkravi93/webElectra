@@ -57,7 +57,7 @@ export default function AllProductsPage() {
     }
 
     // 3. Pagination
-    const totalItems = products.length;
+    const totalItems = products?.length;
     setTotalPages(Math.ceil(totalItems / ITEMS_PER_PAGE));
 
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -108,7 +108,7 @@ export default function AllProductsPage() {
             {loading && <p className="text-center">Loading...</p>}
 
             {/* Products Grid */}
-            { !loading && filteredProducts.length === 0 ? (
+            { !loading && filteredProducts?.length === 0 ? (
               <p></p>
             ) : (
               <>

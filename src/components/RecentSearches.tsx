@@ -14,7 +14,7 @@ export function RecentSearches({ onSelect }: RecentSearchesProps) {
     else alert("no recent searches");
   }, [recentSearches]);
 
-  if (loading || recentSearches.length === 0) {
+  if (loading || recentSearches?.length === 0) {
     return null;
   }
 

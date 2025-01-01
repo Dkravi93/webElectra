@@ -24,19 +24,19 @@ export function Hero() {
 
     if (isDeleting) {
       // Deleting animation
-      if (displayedMotto.length > 0) {
+      if (displayedMotto?.length > 0) {
         timeoutId = setTimeout(() => {
           setDisplayedMotto((prev) => prev.slice(0, -1));
         }, 50); // Speed of deletion
       } else {
         setIsDeleting(false);
-        setCurrentMottoIndex((prevIndex) => (prevIndex + 1) % mottos.length); // Move to the next motto
+        setCurrentMottoIndex((prevIndex) => (prevIndex + 1) % mottos?.length); // Move to the next motto
       }
     } else {
       // Typing animation
-      if (displayedMotto.length < currentMotto.length) {
+      if (displayedMotto?.length < currentMotto?.length) {
         timeoutId = setTimeout(() => {
-          setDisplayedMotto((prev) => currentMotto.slice(0, prev.length + 1));
+          setDisplayedMotto((prev) => currentMotto.slice(0, prev?.length + 1));
         }, 100); // Speed of typing
       } else {
         timeoutId = setTimeout(() => {

@@ -13,7 +13,7 @@ export const useFetchRecentSearches = () => {
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
-    if (recentSearches.length === 0 && session?.user?.email) {
+    if (recentSearches?.length === 0 && session?.user?.email) {
       const fetchRecentSearches = async () => {
         setLoading(true);
         setError(null);
@@ -30,7 +30,7 @@ export const useFetchRecentSearches = () => {
 
       fetchRecentSearches();
     }
-  }, [recentSearches.length, session, dispatch]);
+  }, [recentSearches?.length, session, dispatch]);
 
   return { recentSearches, loading, error };
 };

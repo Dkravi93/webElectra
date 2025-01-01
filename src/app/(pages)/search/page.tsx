@@ -15,7 +15,7 @@ function SearchPageContent() {
   const [showSignInPopup, setShowSignInPopup] = useState(false);
 
   useEffect(() => {
-    if (searchQuery && products.length > 0) {
+    if (searchQuery && products?.length > 0) {
       setFilteredProducts(
         products.filter(
           (product) =>
@@ -38,7 +38,7 @@ function SearchPageContent() {
             >
               Search Results for "{searchQuery}"
             </motion.h1>
-            {filteredProducts.length === 0 && !loading ? (
+            {filteredProducts?.length === 0 && !loading ? (
               <p className="text-center text-lg">No products found.</p>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

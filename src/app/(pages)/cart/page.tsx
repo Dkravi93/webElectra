@@ -36,7 +36,7 @@ export default function CartPage() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        if (!cart || !products || cart.length === 0 || products.length === 0) return;
+        if (!cart || !products || cart?.length === 0 || products?.length === 0) return;
         const items = cart.map(({ productId, quantity }) => {
             const product = products.find((p) => p._id === productId);
             return product
@@ -121,7 +121,7 @@ export default function CartPage() {
                 <ShoppingCart className="h-12 w-12 mr-4" />
                 <h1 className="text-4xl md:text-5xl font-bold">Your Cart</h1>
                 </motion.div>
-                {cartItems.length === 0 ? (
+                {cartItems?.length === 0 ? (
                 <p className="text-center text-lg">Your cart is empty.</p>
                 ) : (
                 <div className="space-y-4">
