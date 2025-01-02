@@ -79,7 +79,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center">
-          <p>&copy; 2023 WebElectra. All rights reserved.</p>
+          <p>&copy; 2024 WebElectra. All rights reserved. Deepak Kumar Ravi</p>
         </div>
       </div>
     </footer>
