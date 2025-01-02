@@ -78,7 +78,7 @@ export function Navbar() {
               <span className="sr-only">Open menu</span>
             </Button>
             <Link href="/" className="flex items-center space-x-2">
-              <Image className='inline-block' src="https://res.cloudinary.com/ds7z5pw52/image/upload/v1735668460/WebElectra_uy0vqr.png" alt="WebElectra" width={250} height={250} />
+              <Image className='inline-block' src="https://res.cloudinary.com/ds7z5pw52/image/upload/v1735806666/WebElectra__1_-removebg-preview_lx1k4y.png" alt="WebElectra" width={250} height={250} />
             </Link>
           </div>
 

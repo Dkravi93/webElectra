@@ -9,7 +9,6 @@ import { ProductFilters } from '@/components/ProductFilters';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { useFetchProducts } from '@/hooks/useFetchProducts';
 import Link from 'next/link';
-import { Sign } from 'crypto';
 import { SignInPopup } from '@/components/SigninPopup';
 
 interface Product {
