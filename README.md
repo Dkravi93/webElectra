@@ -39,7 +39,6 @@ Check out the live site: [WebElectra](https://web-electra.vercel.app/)
 - **NextAuth**: Secure and flexible authentication workflows, including Google Sign-In.
 - **Nodemailer**: Email-based OTP verification for enhanced security.
 - **MongoDB/Mongoose**: Scalable and efficient database management.
-- **Stripe**: Integrated for seamless online payment processing.
 
 ### TypeScript
 
