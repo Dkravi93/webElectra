@@ -48,7 +48,13 @@ export const authOptions: NextAuthOptions = {
         GoogleProvider({
             clientId: process.env.GOOGLE_ID as string,
             clientSecret: process.env.GOOGLE_SECRET as string,
-            authorization: { params: { scope: "openid your_custom_scope" } }, // Users Consent scope
+            authorization: {
+              params: {
+                prompt: "consent",
+                access_type: "offline",
+                response_type: "code"
+              }
+            } // Users Consent scope
         })
     ],
     callbacks: { //@ts-ignore
